@@ -95,7 +95,51 @@ body{
         margin-bottom: 10px;
     
     }
+    .text-container{
+        margin-bottom: 10px;
+    }
+    .box-text{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .box-text .item{
+        padding: 20px;
+    }
    
    
     
+}
+@media only screen and (max-width:700px){
+    body{
+        text-align: center;
+        
+       
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .image-container{
+        order: -1;
+    }
+    .text-container .sub-title{
+     
+        margin-bottom: 10px;
+    
+    }
+    .text-container{
+        margin-bottom: 10px;
+    }
+    .box-text{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        align-items: center;
+        /* min-height: 100vh; */
+    }
+    .box-text .item{
+        padding: 15px;
+    }
+
 }
